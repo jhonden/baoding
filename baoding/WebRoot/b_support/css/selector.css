@@ -1,0 +1,83 @@
+/*ÏÂÀ­Ñ¡Ôñ¿ò*/
+.select {
+	display: inline-block;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    line-height: 28px;
+    text-indent: 15px;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    border:1px solid #D9E1EE;
+    background-color:#F9F9F9;
+}
+.select:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 38px;
+    height:100%;
+    background-color:#F9F9F9;
+}
+.select:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 11px;
+    top: 13px;
+    border-style: solid;
+    border-width: 10px 8px;
+    border-color:  #D9D9D9 transparent transparent transparent;
+}
+.select ul {
+    position: absolute;
+    left: -1px;
+    margin: 0;
+    padding: 0;
+    top:36px;
+    width: 100%;
+    z-index: 15;
+    display: none;
+    height:300px;
+    overflow-y:auto; 
+    overflow-x:hidden;
+    border-bottom:1px solid #D9E1EE;
+    padding-bottom:5px;
+}
+.option {
+    margin: 0;
+    height: 28px;
+    line-height: 28px;
+    background-color: #F9F9F9;
+    width: 200px;
+    color:#6C8383;
+	list-style:none;
+	border-left:1px solid #D9E1EE;
+	border-right:1px solid #D9E1EE;
+	transition: background 0.2s ease-out;
+}
+.option-last{
+}
+
+.option:hover{
+    background-color: #FE9706;
+    color:white;
+}
+
+.option-hover{
+    background-color: #FE9706;
+    color:white;
+	
+}
+
+.select select {display: none;}
+
+.value{
+	color: #6C8383;
+	line-height:35px;
+}

@@ -1,0 +1,93 @@
+@CHARSET "utf-8";
+html, body{height:100%;}
+img{border:none;}
+*{font-family:'微软雅黑';font-size:14px;}
+dl,dt,dd{display:block;margin:0;}
+a{text-decoration:none;}
+body{ padding:0; margin:0;overflow-x:hidden;background-color: #1C67A8; background-size:100% 100% ;font-family: 'Microsoft YaHei'}
+ul,li{padding:0;margin:0;list-style: none}
+.menu{
+	float:left;
+	width:11%;
+}
+
+.content{
+	float:left;
+	background-color: #DDDDDD;
+	padding:10px 10px;
+}
+
+.login_status{
+	float:left;
+	background-color: #F2F2F2;
+	border-radius:2px;
+	padding:8px 15px;
+	border-radius:4px;
+}
+
+.login_status img{
+	margin-top:2px;
+	float:left;
+	width:45px;
+}
+
+.info{
+	float:left;
+	margin-left:5px;
+	line-height: 25px;
+	
+}
+
+.username{
+	color:#FD9A39;
+	font-weight: bold;
+}
+
+.login_time{
+	color:#828282;
+	font-size:14px;
+}
+
+.logout{
+	float:right;
+	background-color: #F2F2F2;
+	padding:8px 18px;
+	border:0;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+.logout img{
+	border:0;
+}
+
+.logout span{
+	display: block;
+	font-size:15px;
+	color:#828282;
+}
+
+.notice{
+	margin-right:10px;
+	background-color: #F2F2F2;
+	border-radius:4px;
+	padding:8px 18px;
+	height:50px;
+	border:0;
+	color:red;
+	
+	width:500px;
+	float:right;
+	line-height: 50px;
+}
+#noticeId{
+	font-size:18px;
+}
+#noticeContent{
+	font-size:16px;
+	margin-left:5px;
+}
+
+
+
+

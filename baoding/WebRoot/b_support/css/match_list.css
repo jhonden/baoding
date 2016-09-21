@@ -1,0 +1,197 @@
+@CHARSET "utf-8";
+
+body{ padding:0; margin:0;background-color: #fff; background-size:100% 100% ; font-family: 'Microsoft YaHei'}
+ul,li{padding:0;margin:0;list-style: none}
+a{text-decoration: none}
+.header{
+	background-color: #EEEEEE;
+	color:#828282;
+	padding:10px;
+}
+.header label{
+	padding-right:2px;
+}
+.header span{
+	margin-left:5x;
+}
+/**
+查询条件
+*/
+.action{
+	margin-top:10px;
+	padding-left:20px;
+	padding-right:5px;
+}
+
+.search_form{
+	float:left;
+	color:#3D3D3D;
+}
+
+.input_group{
+	display: inline-block;
+	border:1px solid #ccc;
+	height:30px;
+	width:270px;
+}
+
+.input_group input{
+	border:none;
+	height:28px;
+	text-indent: 5px;
+}
+
+.input_group label{
+	
+	top:2px;
+	position:relative;
+	border-left:1px solid #ccc;
+	padding:3px 8px;
+	color:#949494;
+	font-size:15px;
+}
+
+.inverted_triangle{
+	top:8px;
+	right:-6px;
+	position:absolute;
+	border: 5px solid transparent;
+	border-top-color: #ccc;
+}
+
+.search_button{
+	color:#fff;
+	background-color: #0088FE;
+	border-radius:2px;
+	padding:7px 15px;
+	border:none;
+	cursor:pointer;
+	font-size:15px;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+
+.search_button:hover{
+	opacity:0.8;
+}
+
+.search_button:active{
+	opacity:1;
+}
+
+.add_action{
+	float:right;
+	display: block;
+	background-color: #8CC244;
+	padding:5px 3px;
+	border-radius:2px;
+	color:#fff;
+	cursor:pointer;
+	font-size: 15px;
+	transition: all 0.2s ease-in;
+}
+
+.add_action:hover{
+	opacity:0.8;
+}
+
+.add_action:active{
+	opacity:1;
+}
+
+.add_action img{
+  border:0;
+}
+/*搜索结果*/
+.result_list{
+	clear:both;
+	padding-top:15px;
+	padding-left:20px;
+	padding-right:5px;
+}
+
+.list_table{
+	width:100%;
+}
+
+.list_table thead tr td{
+	line-height: 45px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #C9C9C9;
+}
+
+.list_table tbody tr td{
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height: 25px;
+	font-size: 15px;
+	text-align: center;
+	border-bottom: 2px solid #F3F3F3;
+	color:#888888;
+}
+
+.list_table tbody tr{
+	transition:background 0.15s ease-in;
+}
+
+.list_table tbody tr:hover{
+	background-color: #F3F3F3;
+}
+
+.team{
+	display: inline-block;
+}
+
+.team_vs{
+	display: inline-block;
+	height:20px;
+	padding-top:5px;
+	vertical-align: top;
+}
+
+.team img{
+	height:30px;
+}
+
+.list_table tbody tr td:first-child{
+	width:18%;
+}
+
+.action_btn{
+	cursor:pointer;
+	color:#FE6700;
+	margin-left:10px;
+	margin-right:10px;
+	transition: all 0.2s ease-in;
+}
+.action_btn img{
+	width:15px;
+}
+
+.action_btn:hover{
+	opacity:0.8;
+	color:#1C67A8;
+}
+
+.action_btn:active{
+	opacity:1;
+	color:#FE6700;
+}
+
+.close_btn{
+	transition: all 0.2s ease-in;
+}
+.close_btn:hover{
+	opacity:0.8;
+}
+
+.close_btn:active{
+	opacity:1;
+}
+
+
+
+
